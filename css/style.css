@@ -1,0 +1,187 @@
+* {
+    max-width: 1800px;
+
+
+}
+
+/* navigation  */
+.navigation {
+    background-color: #181D26;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30Px;
+    border-bottom: 1px solid #918f8f;
+}
+
+
+.logo {
+    align-items: flex-start;
+    width: 5%;
+    height: 5%;
+    margin-left: 0%;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 50px;
+    /* this makes the nav items look one after the other 
+    to be adjusted  as I want it to look like blocks  */
+}
+
+nav a {
+    color: white;
+    font-weight: bold;
+    font-size: 26px;
+
+}
+
+/* navigation name  */
+
+.name-title {
+    margin-right: 40%;
+}
+
+.name-title h1 {
+    font-size: 20px;
+    color: white;
+}
+
+.name-title p {
+    font-size: 16px;
+    color: white;
+}
+
+/* Casestudy  */
+
+.Casestudy {
+    background-color: #06744c;
+    padding: 1%;
+}
+
+.title {
+
+    margin-left: 10%;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 4vw;
+    color: aliceblue;
+}
+
+.image {
+    margin-left: 35%;
+}
+
+.mainheading {
+    padding: 1%;
+    margin-left: 2%;
+
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.mainheading h2 {
+    font-size: 250%;
+}
+
+
+.section {
+    display: flex;
+    padding: 1%;
+    align-content: center;
+    justify-content: space-around;
+}
+
+.Subheading {
+    margin-left: 2%;
+
+    font-family: 'Times New Roman', Times, serif;
+    width: 50%;
+    padding: 1%;
+}
+
+.Subheading h3 {
+    font-size: 200%;
+}
+
+.Subheading p {
+    font-size: 150%;
+}
+
+.Subheading1 {
+    padding: 1%;
+    margin-left: 2%;
+
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+.subheading2 h2 {
+    font-size: 240%;
+    padding: 1%;
+    margin-left: 2%;
+
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+.Subheading1 h3 {
+    font-size: 200%;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+.Subheading1 p {
+    font-size: 150%;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+
+
+.button1 {
+    background-color: #04AA6D;
+    color: white;
+    border: 2px solid #04AA6D;
+    width: 15%;
+    height: 200%;
+    font-size: 24px;
+    margin: 3%;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+
+}
+
+.colorsection {
+    justify-content: center;
+    margin: 5%;
+}
+
+.card1 {
+    width: 20rem;
+    height: 18rem;
+    text-align: center;
+    border-radius: 7%;
+    border-color: #027d50;
+    border-style: solid;
+
+}
+
+.card-body h5 {
+    font-size: 180%;
+    margin: 1%;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.card-body p {
+    font-size: 150%;
+    margin: 0%;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.list-group-item {
+    border-color: #04AA6D;
+    font-size: 150%;
+    margin: 0%;
+    font-family: 'Times New Roman', Times, serif;
+}

@@ -4,6 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <!-- Google font link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gabarito:wght@400..900&family=Inter:wght@100..900&display=swap"
+        rel="stylesheet">
     <!-- bootstrap link -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
@@ -39,7 +44,7 @@
 
         </div>
         <div class="image">
-            <img src="./images/After.png" width="500" height="600">
+            <img src="./images/After.png" width="490" height="600">
         </div>
     </section>
 
@@ -55,7 +60,9 @@
                 that it covers 29 agencies. The goal of the redesign was to increase the usability and help all the
                 USDA’s different users find information successfully and quickly.</p>
         </div>
-        <button class="button1">View Prototype</button>
+
+        <a href="https://www.figma.com/proto/DielFyVblHHtvczkar9oKo/Personal-USDA-GOV?page-id=311%3A545&type=design&node-id=311-546&viewport=532%2C474%2C0.03&t=mft9QWamfLiqNsiM-1&scaling=min-zoom&starting-point-node-id=311%3A546&mode=design"
+            class="button1" role="button" data-bs-toggle="button" aria-pressed="true">View Prototype</a>
     </div>
 
     <div class="section">
@@ -243,26 +250,326 @@
             them to 2 different home pages.</p>
     </div>
 
+    <div class="subheading2">
+        <h2> What is the Issue? </h2>
+    </div>
+    <div class="Subheading1">
+        <h3>Findings and Results</h3>
+        <p>The user were confused and were not sure how to reach the designation, one of my user used the search bar to
+            find the details.Most of the users are not interested in how the website or mobile version looks as long as
+            they are able to find the information easily and efficiently.</p>
+    </div>
+
+    <section class="colorsection">
+        <div class="row">
+            <div class="col-sm-3 ">
+                <div class="card1">
+                    <div class="card-body">
+                        <h5 class="card-title">The menu bar doesn’t close even when the user click on the close button
+                            next to the menu bar (mobile version)</h5>
+
+                        <!-- <a href="#">Go somewhere</a>-->
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-3 ">
+                <div class="card1">
+                    <div class="card-body">
+                        <h5 class="card-title">No Clear hierarchy of information to direct users.</h5>
+
+                        <!-- <a href="#">Go somewhere</a>-->
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-3 ">
+                <div class="card1">
+                    <div class="card-body">
+                        <h5 class="card-title">While the navigation bar contains an abundance of details, clicking on
+                            the pages reveals that the main content lacks the corresponding topics or information.</h5>
+
+                        <!-- <a href="#">Go somewhere</a>-->
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </section>
+
+    <div class="subheading2">
+        <h2> What to Solve?</h2>
+    </div>
+    <div class="Subheading1">
+        <h3>2*2 Matrix</h3>
+        <p>Our findings were taken and compiled into a feature prioritization matrix. It was important for us to
+            know what users liked and disliked about the existing USDA site.We also wanted to see what the users
+            most wanted to see changed or improved with the USDA site.</p>
+        <img src="./images/matrix.png" width="500" height="420">
+    </div>
+
+
+    <div class="subheading2">
+        <h2> What inspired?</h2>
+    </div>
+    <div class="Subheading1">
+        <h3>Mood board</h3>
+        <p>I created this mood board with the website’s theme centered around agriculture. Recognizing the agricultural
+            focus, I incorporated a vibrant palette inspired by farming and food-related colors. The mood board is
+            influenced by a quote highlighting how a farm can tell a compelling story. Additionally, I integrated
+            several UI patterns to enhance the website’s usability.</p>
+    </div>
+
+    <div class="section">
+        <img src="./images/moodboard1.png" width="550" height="520">
+        <img src="./images/moodboard3.png" width="550" height="520">
+        <img src="./images/moodboard2.png" width="550" height="520">
+    </div>
+    <hr>
+
+    <div class="mainheading">
+        <h2> INFORMATION ARCHITECTURE</h2>
+    </div>
+
+    <div class="subheading2">
+        <h2> How to Reorganize?</h2>
+    </div>
+    <div class="Subheading1">
+        <h3>Card Sorting </h3>
+        <p>In order to prevent users from getting confused from the current navigation I wanted to restructure the
+            navigation so that it would guide the user’s path .I performed a cart sort to organize all the information
+            available on the USDA website.By grouping information together, I was able to find a lot of redundancy. The
+            site highlighted content which I felt is not important to the users. I noted down the primary, secondary
+            navigation along with the footer details into a sticky notes, shuffled it around, and rebuilt the new
+            navigation path.</p>
+    </div>
+
+    <div class="Subheading1">
+        <h3>SiteMap</h3>
+        <p>The site map has the primary and secondary navigation details along with the utility and footer details.As
+            per the card sorting I categories them together. The menu Navigation had a lot of details I decided to
+            condense the menu under topics to 4 sub categories.</p>
+    </div>
+
+
+    <div class="section">
+        <img src="./images/sitemap1.png" width="550" height="920">
+        <img src="./images/sitemap2.png" width="550" height="520">
+
+    </div>
+
+
+    <hr>
+
+    <div class="mainheading">
+        <h2> RESPONSIVE DESIGN</h2>
+    </div>
+
+    <div class="subheading2">
+        <h2> How did I go about redesigning it?</h2>
+    </div>
+
+    <div class="section">
+        <div class="Subheading">
+            <h3>New Navigation Prototype</h3>
+            <p>Following the user research, I identified the home page navigation bar as the most crucial element.
+                Concentrating on the header, footer, and navigation bar, I implemented a hovering function and
+                introduced a
+                drop-down menu in the navigation bar, aligning it with the previously established site map.
+                Additionally, I
+                incorporated a hovering function in the footer to emphasize the highlighted item upon hovering.</p>
+        </div>
+        <img src="./images/new nav.png" width="900" height="420">
+    </div>
+
+
+    <div class="Subheading1">
+        <h3>Design Home page / Iterate header & Footer nav</h3>
+        <p>Before I start with the new wireframe in Figma I sketched the layout for all the 5 screens I was redesigning
+            which helped me in my wireframing process.</p>
+        <p>In this phase, I undertook a redesign of the header navigation bar, aiming to make improvements from the
+            initial iteration. I developed distinct components for each dropdown navigation, including various forms. To
+            streamline the user experience, I opted for a consolidated frame instead of incorporating multiple dropdowns
+            and sub-dropdowns. This approach enables users to view all the details at once, minimizing the need for
+            multiple clicks.In this stage I also concentrated on the user’s navigation journey, sketching out the
+            website layout based on the intended path. Prioritizing user guidance, I organized the page content to
+            facilitate seamless navigation. While maintaining the effectiveness of certain original website design
+            patterns, I made refinements to enhance the overall layout.</p>
+    </div>
+
+    <div class="section">
+
+
+        <img src="./images/nav bar.png" width="800" height="450">
+        <img src="./images/nav phone.png" width="400" height="620">
+
+    </div>
+
+
+    <div class="Subheading1">
+        <h3>First Wireframe / Prototyping</h3>
+        <p>Having implemented a new navigation structure, I’ve designed five desktop screens, each featuring a
+            comprehensive navigation setup with a header, footer, and side navigation. These pages delineate a
+            simplified user path for enhanced usability.</p>
+        <p>In parallel, for the mobile application, I’ve crafted nine screens. This mobile interface is tailored to
+            optimize user experience on smaller screens, accommodating the necessary elements for smooth navigation and
+            functionality.</p>
+    </div>
+
+    <div class="section">
+        <img src="./images/first.png" width="950" height="550">
+        <img src="./images/first phone.png" width="700" height="620">
+
+    </div>
+
+    <div class="Subheading1">
+        <h3>5 Second Usability Test</h3>
+        <p>Having implemented a new navigation structure, I’ve designed five desktop screens, each featuring a
+            comprehensive navigation setup with a header, footer, and side navigation. These pages delineate a
+            simplified user path for enhanced usability.</p>
+        <p>In parallel, for the mobile application, I’ve crafted nine screens. This mobile interface is tailored to
+            optimize user experience on smaller screens, accommodating the necessary elements for smooth navigation and
+            functionality.</p>
+
+        <h3>Few key takeaways:</h3>
+        <ul class="list-group">
+            <li class="list-group-item"> The front page of the website looks good.</li>
+            <li class="list-group-item">Side navigation of website to be improved..</li>
+            <li class="list-group-item">Align the spacing in the webpages.</li>
+            <li class="list-group-item">Reduce the contents in the website.</li>
+            <li class="list-group-item">Name the icons in the mobile Application.</li>
+            <li class="list-group-item">Font Size to big in the mobile Application.</li>
+        </ul>
+
+    </div>
+
+
+
+    <div class="subheading2">
+        <h2> How did I added vibrancy?</h2>
+    </div>
+
+    <div class="section">
+        <div class="Subheading">
+            <h3>UI Style Guide</h3>
+            <p>I Started with the development of a UI Style Tile, I expanded it by adding UI components that are
+                consistently applied across both the website and mobile application redesign. Recognizing the need for
+                an aesthetic overhaul from the old website, I opted for colors that reflect an agricultural backdrop.The
+                chosen primary and secondary colors impart a warm and bright visual appeal to the website. While
+                retaining attractive elements from the old design, I even updated logo to align with the new aesthetic.
+                Crucially, I ensured that the primary colors adhere to both AA and AAA accessibility standards for an
+                inclusive design.</p>
+        </div>
+        <img src="./images/Ui style .png" width="850" height="620">
+    </div>
+    <div class="Subheading1">
+        <h3>Responsive Homepage Wireframes with UI style guide</h3>
+        <p>I added visual design to my wireframes and also made few changes based on the previous testing results > I
+            aligned my spacing> Modified the side nav in the website I named each Icon in the mobile application.</p>
+
+    </div>
+
+    <div class="section">
+        <img src="./images/responsive1.png" width="550" height="950">
+        <img src="./images/responsive2.png" width="350" height="580">
+        <img src="./images/Responsive3.png" width="350" height="880">
+
+    </div>
+
+    <hr>
+
+    <div class="mainheading">
+        <h2> INTERACTION DESIGN</h2>
+    </div>
+
+    <div class="subheading2">
+        <h2> How did I test it?</h2>
+    </div>
+
+    <div class="Subheading1">
+        <h3>Usability Test </h3>
+        <p>I conducted usability test for all the 3 models but since the mobile version wasn’t tested earlier I focused
+            more on it.I created a Usability test Plan Dashboard which included details like test task and business case
+            etc. The Testing Doc has the feedback received from each users updated.</p>
+        <img src="./images/dashboard report.png" width="1500" height="620">
+
+        <p>While performing the testing I also tried out the AB testing by creating 2 screens for the home page with
+            different way to present the footer details.In screen 1 I had presented the footer details and in the screen
+            2 the footer details were hide under the hamburger bar.Turns out I was using the progressive testing method
+            instead of AB testing. The test helped me find out which needs to be included in the screen.</p>
+    </div>
+
+    <div class="Subheading1">
+        <h3>Iterated High Fidelity </h3>
+        <p>Following the usability test, I identified several overlooked issues. While making changes across all
+            versions.</p>
+    </div>
 
 
 
 
+    <div class="Subheading1">
+        <h3>Few key adjustments below. </h3>
+        <ul class="list-group">
+            <li class="list-group-item">Reduced the number of screen in the mobile version so the user can reduce the
+                number of clicks to reach the contents.</li>
+            <li class="list-group-item">Tried to align the contents with the margin.</li>
+            <li class="list-group-item">Aligned side Nav bar in the website.</li>
+            <li class="list-group-item">Modified the footer details in the mobile version.</li>
+            <li class="list-group-item">Modified the breadcrumbs.</li>
+            <li class="list-group-item">Redesigned the Nav bar in the Mobile App by adding Home icon to it.</li>
+        </ul>
+    </div>
 
 
+    <div class="section">
+        <div class="Subheading">
+            <h3>HI- FI Prototype</h3>
+            <p>Following numerous iterations and thorough testing, these wireframes represent the refined outcome of the
+                design process.</p>
+        </div>
+        <a href="https://www.figma.com/proto/DielFyVblHHtvczkar9oKo/Personal-USDA-GOV?page-id=311%3A545&type=design&node-id=311-546&viewport=532%2C474%2C0.03&t=mft9QWamfLiqNsiM-1&scaling=min-zoom&starting-point-node-id=311%3A546&mode=design"
+            class="button1" role="button" data-bs-toggle="button" aria-pressed="true">View Prototype</a>
+
+    </div>
+
+    <hr>
+    <div class="subheading2">
+        <h2> What did I Learn?</h2>
+    </div>
+
+    <div class="Subheading1">
+        <h3>Conclusions</h3>
+        <p>I was really excited because it was my first high-fidelity project. But when I started with the research of
+            the USDA website, I was a bit worried because it’s so huge. I had to look at it multiple times to figure out
+            the problems users might face and come up with solutions. Every time I sketched my wireframe, I had to go
+            back several times to make sure I didn’t miss anything important from the actual website.
+            I found Information Architecture challenging due to the abundance of data, requiring me to distill and
+            condense information effectively. I engaged in multiple card sorting sessions, meticulously categorizing
+            details before finally crafting the site map.
+            In the future I would like to work more on the responsiveness of the website as I am still learning features
+            and characteristics of Auto layout in Figma.
+            As always usability testing help me find so many issues which I hadn’t noticed earlier. Due to time
+            constraints I couldn’t make a lot of changes but I would love to make it better.</p>
+    </div>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
+    <footer>
+        <section class="footerhead">
+            <div class="footeritems">
+                <h3> Athira Prakash </h3>
+                <ul>
+                    <li><a href="#linked">Linkedin</a></li>
+                    <li><a href="#medium">Medium</a></li>
+                </ul>
+            </div>
+            <div class="keyword">
+                <h5>Designed with Love and lot of patience </h5>
+                <h5>---------------X0X0---------------</h5>
+            </div>
+        </section>
+    </footer>
 
 </body>
 </html>

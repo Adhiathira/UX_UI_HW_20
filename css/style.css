@@ -74,13 +74,13 @@ nav a {
 .mainheading {
     padding: 1%;
     margin-left: 2%;
+    font-size: 100%;
+    color: #0b6645;
+    font-family: "Gabarito", sans-serif;
 
-    font-family: 'Times New Roman', Times, serif;
 }
 
-.mainheading h2 {
-    font-size: 250%;
-}
+
 
 
 .section {
@@ -92,8 +92,7 @@ nav a {
 
 .Subheading {
     margin-left: 2%;
-
-    font-family: 'Times New Roman', Times, serif;
+    font-family: "Inter", sans-serif;
     width: 50%;
     padding: 1%;
 }
@@ -110,7 +109,7 @@ nav a {
     padding: 1%;
     margin-left: 2%;
 
-    font-family: 'Times New Roman', Times, serif;
+    font-family: "Inter", sans-serif;
 
 }
 
@@ -119,28 +118,28 @@ nav a {
     padding: 1%;
     margin-left: 2%;
 
-    font-family: 'Times New Roman', Times, serif;
+    font-family: "Inter", sans-serif;
 
 }
 
 .Subheading1 h3 {
     font-size: 200%;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: "Inter", sans-serif;
 
 }
 
 .Subheading1 p {
     font-size: 150%;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: "Inter", sans-serif;
 
 }
 
 
 
 .button1 {
-    background-color: #04AA6D;
+    background-color: #C8634D;
     color: white;
-    border: 2px solid #04AA6D;
+    border: 2px solid #C8634D;
     width: 15%;
     height: 200%;
     font-size: 24px;
@@ -162,26 +161,93 @@ nav a {
     height: 18rem;
     text-align: center;
     border-radius: 7%;
-    border-color: #027d50;
+    border-color: #06744c;
     border-style: solid;
 
 }
 
 .card-body h5 {
+    color: #C8634D;
     font-size: 180%;
     margin: 1%;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: "Inter", sans-serif;
 }
 
 .card-body p {
     font-size: 150%;
     margin: 0%;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: "Inter", sans-serif;
 }
+
 
 .list-group-item {
     border-color: #04AA6D;
     font-size: 150%;
     margin: 0%;
+    font-family: "Inter", sans-serif;
+}
+
+hr {
+    color: #06744c;
+
+}
+
+
+.footerhead {
+    display: flex;
+    justify-content: space-between;
+    background-color: #181D26;
+    padding: 2%;
+    border-top: 1px solid #918f8f;
+    box-shadow: #1EAE98;
+
+}
+
+.footeritems {
+    align-items: center;
+    justify-content: center;
+    background-color: #181D26;
+    width: 15%;
+
+
+}
+
+.footeritems h3 {
+    color: #D9D9D9;
+    font-size: 180%;
     font-family: 'Times New Roman', Times, serif;
+
+}
+
+footer ul {
+    display: inline-block;
+    align-items: center;
+    justify-content: space-around;
+    padding: 1%;
+    background-color: #181D26;
+    width: 80%;
+}
+
+footer a {
+    font-size: 150%;
+    color: #D9D9D9;
+    justify-content: space-around;
+    width: 10%;
+}
+
+li {
+    display: inline-block;
+}
+
+
+.keyword {
+    width: 25%;
+
+    align-items: end;
+
+}
+
+.keyword h5 {
+    color: #D9D9D9;
+    font-size: 150%;
 }
